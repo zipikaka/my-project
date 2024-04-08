@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/cate/cate",
+    "pages/inter/inter"
+  ],
+  "window": {
+    "navigationBarBackgroundColor":"#808080",
+    "navigationBarTitleText":"智慧校园",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {  
+    "list": [{
+    "pagePath": "pages/index/index",
+    "text": "主页",
+    "iconPath":"/assets/home.png",
+    "selectedIconPath":"/assets/home.png"
+  },
+  {
+    "pagePath": "pages/list/list",
+    "text": "菜单",
+    "iconPath":"/assets/caidan.png",
+    "selectedIconPath":"/assets/caidan.png"
+  },
+  {
+    "pagePath": "pages/cate/cate",
+    "text": "应用",
+    "iconPath":"/assets/net.png",
+    "selectedIconPath":"/assets/net.png"
+  },
+  {
+    "pagePath": "pages/inter/inter",
+    "text": "分享",
+    "iconPath":"/assets/fenxiang.png",
+    "selectedIconPath":"/assets/fenxiang.png"
+  }
+]}
+}
