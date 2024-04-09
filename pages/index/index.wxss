@@ -54,6 +54,25 @@ page {
 
 .ptmanwoman{
   display: flex;
+  position: relative;
+  top: -70px;
+  
+}
+
+.ptmanwomantext1{
+  font-size: 10px  ;
+  color: white;
+  position: relative;
+  left: 32px;
+  top: 19px;
+}
+
+.ptmanwomantext2{
+  font-size: 10px  ;
+  color: white;
+  position: relative;
+  right: 32px;
+  top: 19px;
 }
 
 
@@ -69,6 +88,8 @@ color: rgba(16,16,16,1);
 font-size: 14px;
 text-align: center;
 font-family: Roboto;
+
+
 }
 
 .ptwoman{
@@ -83,12 +104,14 @@ color: rgba(16,16,16,1);
 font-size: 14px;
 text-align: center;
 font-family: Roboto;
+margin-left: 20px;
 }
 
 .ptmanwoman image{
   width: 112px;
   height: 86px;
 }
+
 
 
 

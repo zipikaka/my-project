@@ -37,10 +37,14 @@
 <!-- 男女图 -->
 <view class="ptmanwoman">
   <view class="ptman">
-    <image src="/pict/man.png" mode=""/>
+  <view class="ptmanwomantext1">待办事项</view>
+  <view class="ptmanwomantext1">我的待办事项</view>
+    <image style="position: absolute; left: 0rpx; top: 0px;" src="/pict/man.png" mode=""/>
   </view>
   <view class="ptwoman">
-    <image src="/pict/woman.png" mode=""/>
+    <view class="ptmanwomantext2">办事指南</view>
+    <view class="ptmanwomantext2">办事指南汇总</view>
+    <image style="position: absolute; right: -15rpx; top: 0px;" src="/pict/woman.png" mode=""/>
   </view> 
 </view>
 
