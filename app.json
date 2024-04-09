@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/list/list",
     "pages/cate/cate",
-    "pages/inter/inter"
+    "pages/inter/inter",
+    "pages/wode/wode"
   ],
   "window": {
     "navigationBarBackgroundColor":"#808080",
@@ -34,6 +35,13 @@
     "text": "分享",
     "iconPath":"/assets/fenxiang.png",
     "selectedIconPath":"/assets/fenxiang.png"
+  }
+  ,
+  {
+    "pagePath": "pages/wode/wode",
+    "text": "我的",
+    "iconPath":"/assets/wode.png",
+    "selectedIconPath":"/assets/wode.png"
   }
 ]}
 }

@@ -2,8 +2,8 @@
 <navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
+  <image class="pct1" src="/pict/1.png"/>
 
-消息
     
   </view>
 </scroll-view>
