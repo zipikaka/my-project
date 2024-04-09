@@ -7,7 +7,6 @@
   ],
   "window": {
     "navigationBarBackgroundColor":"#808080",
-    "navigationBarTitleText":"智慧校园",
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },
