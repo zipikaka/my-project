@@ -34,6 +34,15 @@
   <view class="pt5text">全部事项</view>
 </view> 
 </view>
+<!-- 男女图 -->
+<view class="ptmanwoman">
+  <view class="ptman">
+    <image src="/pict/man.png" mode=""/>
+  </view>
+  <view class="ptwoman">
+    <image src="/pict/woman.png" mode=""/>
+  </view> 
+</view>
 
     
 </view>

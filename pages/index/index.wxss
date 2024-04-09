@@ -52,4 +52,43 @@ page {
   font-size: small;
 }
 
+.ptmanwoman{
+  display: flex;
+}
+
+
+.ptman{
+  left: 22px;
+top: 259px;
+width: 162px;
+height: 85px;
+line-height: 20px;
+border-radius: 10px;
+background: linear-gradient(117.31deg, rgba(254,178,122,1) 11.25%,rgba(255,122,92,1) 95.53%);
+color: rgba(16,16,16,1);
+font-size: 14px;
+text-align: center;
+font-family: Roboto;
+}
+
+.ptwoman{
+  left: 211px;
+top: 259px;
+width: 158px;
+height: 85px;
+line-height: 20px;
+border-radius: 10px;
+background: linear-gradient(109.09deg, rgba(149,249,218,1) 8.35%,rgba(83,189,232,1) 122.08%);
+color: rgba(16,16,16,1);
+font-size: 14px;
+text-align: center;
+font-family: Roboto;
+}
+
+.ptmanwoman image{
+  width: 112px;
+  height: 86px;
+}
+
+
 
