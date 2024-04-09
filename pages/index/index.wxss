@@ -43,3 +43,13 @@ page {
   border-radius: 50%;
   margin: 20rpx;
 }
+
+.pct5 view{
+  margin: 3rpx;
+}
+
+.pt5text{
+  font-size: small;
+}
+
+

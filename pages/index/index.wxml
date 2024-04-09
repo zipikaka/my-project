@@ -10,29 +10,31 @@
   <view style="font-size: 25rpx;">方便快捷 办事实时查看消息</view>
   <view class="understand">去了解</view>
   </view>
+  
   <!-- 中间五个图标 -->
 <view class="pct5">
 <view>
   <image src="/pict/T1.png" mode=""/>
-  1
+  <view class="pt5text">学习概况</view>
 </view>  
 <view>
   <image src="/pict/T2.png" mode=""/>
-  2
+  <view class="pt5text">成绩查询</view>
 </view> 
 <view>
   <image src="/pict/T3.png" mode=""/>
-  3
+  <view class="pt5text">缴费入口</view>
 </view> 
 <view>
   <image src="/pict/T4.png" mode=""/>
-  3
+  <view  class="pt5text">学院预警</view>
 </view> 
-
+<view>
   <image src="/pict/T5.png" mode=""/>
- 
+  <view class="pt5text">全部事项</view>
+</view> 
 </view>
-  
+
     
-  </view>
+</view>
 </scroll-view>
