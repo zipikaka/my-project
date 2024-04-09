@@ -1,14 +1,38 @@
 <!--index.wxml-->
 <navigation-bar title="智慧校园" back="{{false}}" color="black" background="#808080" style="height:0rpx;"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
+<!-- 智慧校园门户 -->
   <view class="container">
   <image class="pct1" src="/pict/1.png"/>
   <view class="text1">
-  <view style="font-size: 34rpx;" style="font-weight: 600;">智慧校园门户</view>
-  <view style="font-size: 28rpx;">学校概况 办事指南等功能</view>
-  <view style="font-size: 28rpx;">方便快捷 办事实时查看消息</view>
+  <view style="font-weight: 600;font-size: 34rpx; margin-bottom: 30rpx;">智慧校园门户</view>
+  <view style="font-size: 25rpx;">学校概况 办事指南等功能</view>
+  <view style="font-size: 25rpx;">方便快捷 办事实时查看消息</view>
+  <view class="understand">去了解</view>
   </view>
+  <!-- 中间五个图标 -->
+<view class="pct5">
+<view>
+  <image src="/pict/T1.png" mode=""/>
+  1
+</view>  
+<view>
+  <image src="/pict/T2.png" mode=""/>
+  2
+</view> 
+<view>
+  <image src="/pict/T3.png" mode=""/>
+  3
+</view> 
+<view>
+  <image src="/pict/T4.png" mode=""/>
+  3
+</view> 
 
+  <image src="/pict/T5.png" mode=""/>
+ 
+</view>
+  
     
   </view>
 </scroll-view>
