@@ -1,8 +1,13 @@
 <!--index.wxml-->
-<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#808080" style="height:0rpx;"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
   <image class="pct1" src="/pict/1.png"/>
+  <view class="text1">
+  <view style="font-size: 34rpx;" style="font-weight: 600;">智慧校园门户</view>
+  <view style="font-size: 28rpx;">学校概况 办事指南等功能</view>
+  <view style="font-size: 28rpx;">方便快捷 办事实时查看消息</view>
+  </view>
 
     
   </view>
