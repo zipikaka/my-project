@@ -55,7 +55,7 @@ page {
 .ptmanwoman{
   display: flex;
   position: relative;
-  top: -70px;
+  top: 100px;
   
 }
 
@@ -111,6 +111,74 @@ margin-left: 20px;
   width: 112px;
   height: 86px;
 }
+
+.ptsound{
+  display: flex;
+  position: relative;
+  left: -180rpx;
+  top: -60rpx;
+  
+}
+
+.ptsoundimage{
+ height: 36rpx;
+ width: 32rpx; 
+ position: relative;
+ top: 15%;
+ left: 15%;
+}
+
+.ptsoundcircle{
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 50%;
+  background-color: rgb(99, 214, 99);
+  position: relative;
+  top: -10rpx;
+  left: -15rpx;
+}
+
+.newfeelbox{
+  left: 22px;
+top: 417px;
+width: 342px;
+height: 140px;
+line-height: 20px;
+border-radius: 16px;
+background-color: rgba(255,255,255,1);
+color: rgba(16,16,16,1);
+font-size: 14px;
+text-align: center;
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.11);
+font-family: Roboto;
+position: relative;
+top: 400rpx;
+left: -3rpx;
+
+}
+
+.ptnewfeelimage{
+  width: 157px;
+  height: 139px;
+  background-color: rgba(255,255,255,1);
+  position: relative;
+  right: -170rpx;
+  
+}
+
+.ptnewfeeltext{
+  position: relative;
+  left: -160rpx;
+  top:-280rpx
+}
+
+.understand2{
+  width: 120rpx;
+  height: 35rpx;
+border-radius: 40%;
+background-color: rgb(98, 193, 231);
+}
+
 
 
 

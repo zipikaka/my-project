@@ -1,8 +1,9 @@
 <!--index.wxml-->
-<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#808080" style="height:0rpx;"></navigation-bar>
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#808080" style="height:130rpx;"></navigation-bar>
+
 <scroll-view class="scrollarea" scroll-y type="list">
-<!-- 智慧校园门户 -->
   <view class="container">
+  <!-- 智慧校园门户 -->
   <image class="pct1" src="/pict/1.png"/>
   <view class="text1">
   <view style="font-weight: 600;font-size: 34rpx; margin-bottom: 30rpx;">智慧校园门户</view>
@@ -47,6 +48,22 @@
     <image style="position: absolute; right: -15rpx; top: 0px;" src="/pict/woman.png" mode=""/>
   </view> 
 </view>
+<!-- 关于系统上线 -->
+<view class="ptsound">
+<view class="ptsoundcircle"><image class="ptsoundimage" src="/pict/sound.png" mode=""/></view>
+<view style="font-size: small;">系统上线运行的时间</view>
+</view>
+<!-- 办事指南新体验 -->
+<view class="newfeelbox">
+<image class="ptnewfeelimage" src="/pict/newfeel.png" mode=""/>
+<view class="ptnewfeeltext">
+<view style="font-weight: 600;font-size: 34rpx; margin-bottom: 30rpx;">办事指南新体验</view>
+<view style="color: gray;">新增办事指南和消息栏目</view>
+<view style="color: gray; position: relative;left: -85rpx;">办事更便捷</view>
+</view>
+</view>
+</view>
+
 
     
 </view>
