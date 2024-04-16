@@ -2,7 +2,7 @@
 <navigation-bar title="智慧校园" back="{{false}}" color="black" background="#808080" >
 </navigation-bar>
 
-<scroll-view class="scrollarea" scroll-y type="list">
+<scroll-view class="scrollarea" scroll-y type="list" >
 
   <view class="container">
 
@@ -10,7 +10,7 @@
   <view class="pct101">
   <image class="pct1" src="/pict/1.png"/>
   <view class="text1">
-  <view style="font-weight: 600;font-size: 34rpx; margin-bottom: -240rpx;">智慧校园门户</view>
+  <view style=" margin-bottom: -240rpx;">智慧校园门户</view>
   <view style="font-size: 25rpx;">学校概况 办事指南等功能</view>
   <view style="font-size: 25rpx;">方便快捷 办事实时查看消息</view>
   <view class="understand">去了解</view>
@@ -67,13 +67,13 @@
 <view style="color: gray; position: relative;left: -85rpx;">办事更便捷</view>
 </view>
 </view>
-
+<!-- 推荐应用 -->
 <view class="pct4text">
   <text style="font-weight: 600; font-size: large;">推荐应用</text>
   <text style="color: gray; padding-top:5px ;">根据您最近浏览和办理为您推荐</text>
 </view>  
-
-<scroll-view class="scrollview" scroll-x >
+<!-- 推荐应用五图 -->
+<scroll-view class="" scroll-x type="list" >
   <view class="pt4">
     <view class="pt4border">
       <image class="pt4image" src="/pict/T2.png" mode=""/>
@@ -108,6 +108,19 @@
     </view>  
   </view>
 </scroll-view>
+<!--通知公告标题部分  -->
+<view class="notice">
+<text style="font-size: large; font-weight: bold;">通知公告</text>
+<text>通知公告</text>
+<text>综合信息</text>
+<text>学术动态</text>
+</view>
+<!-- 通知公告内容部分 -->
+<view class="noticelast">
+<view class="noticelast1">加强新生入学后校园安全管理规范的通知</view>
+<image style="width: 100rpx; height: 100rpx; border-radius: 10%;" src="/pict/pt3-1.png" mode=""/>
+</view>
+<view class="noticelast2"> 校园新闻网</view>
 
 
 
