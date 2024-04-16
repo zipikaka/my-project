@@ -262,11 +262,17 @@ margin: 10rpx;
   font-weight: 500;
   font-size: small;
 }
-
+.noticeimage{
+  width: 100rpx; 
+  height: 100rpx; 
+  border-radius: 10%; 
+  margin-left: 50rpx;
+}
 .noticelast{
   display: flex;
   margin-top: 50rpx;
 }
+
 
 .noticelast1{
   font-weight: 600;
