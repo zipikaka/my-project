@@ -1,8 +1,11 @@
 <!--index.wxml-->
-<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#808080" style="height:130rpx;"></navigation-bar>
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#808080" >
+</navigation-bar>
 
 <scroll-view class="scrollarea" scroll-y type="list">
+
   <view class="container">
+
   <!-- 智慧校园门户 -->
   <view class="pct101">
   <image class="pct1" src="/pict/1.png"/>
@@ -65,14 +68,11 @@
 </view>
 </view>
 
-
-<view>
-<!--推荐应用轮播图文字部分  -->
 <view class="pct4text">
   <text style="font-weight: 600; font-size: large;">推荐应用</text>
   <text style="color: gray; padding-top:5px ;">根据您最近浏览和办理为您推荐</text>
 </view>  
-<!--推荐应用轮播图片部分  -->
+
 <scroll-view class="scrollview" scroll-x >
   <view class="pt4">
     <view class="pt4border">
@@ -84,25 +84,25 @@
     </view>  
 
     <view class="pt4border">
-      <image class="pt4image" src="/pict/T2.png" mode=""/>
-      <view style="font-weight: 600; font-size: smaller;">成绩查询</view>
-      <view style="font-size: smaller;">查询当前历史成绩</view>
+      <image class="pt4image" src="/pict/T4.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">学院预警</view>
+      <view style="font-size: smaller;">查询</view>
       <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
       <image class="pct4add" src="/pict/加号.png" mode=""/>
     </view>  
 
     <view class="pt4border">
-      <image class="pt4image" src="/pict/T2.png" mode=""/>
-      <view style="font-weight: 600; font-size: smaller;">成绩查询</view>
-      <view style="font-size: smaller;">查询当前历史成绩</view>
+      <image class="pt4image" src="/pict/T3.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">网上查询</view>
+      <view style="font-size: smaller;">自主网上缴费</view>
       <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
       <image class="pct4add" src="/pict/加号.png" mode=""/>
     </view>  
 
     <view class="pt4border">
-      <image class="pt4image" src="/pict/T2.png" mode=""/>
-      <view style="font-weight: 600; font-size: smaller;">成绩查询</view>
-      <view style="font-size: smaller;">查询当前历史成绩</view>
+      <image class="pt4image" src="/pict/T5.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">图书借阅</view>
+      <view style="font-size: smaller;">查看图书借阅记录</view>
       <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
       <image class="pct4add" src="/pict/加号.png" mode=""/>
     </view>  
@@ -110,13 +110,9 @@
 </scroll-view>
 
 
-</view>
-
-
-
-
 
 
 <!-- 结束处 -->
 </view>
+
 </scroll-view>
