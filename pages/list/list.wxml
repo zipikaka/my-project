@@ -16,7 +16,61 @@
 <scroll-view class="scrollarea" scroll-y type="list" >
 <!-- 男女图 -->
 <view>
+  <view class="ptmanwoman">
+    <view class="ptwoman">
+      <view class="ptmanwomantext1">待办事项</view>
+       <view class="ptmanwomantext1">我的待办事项</view>
+      <image style="position:relative; left: -75rpx; top: -65rpx;" src="/pict2/woman2.png" mode=""/>
+    </view>
 
+  <view class="ptman">
+      <view class="ptmanwomantext2">办事指南</view>
+      <view class="ptmanwomantext2">办事指南汇总</view>
+      <image style="position: relative; right: 70rpx; top: -32px;" src="/pict2/man.png" mode=""/>
+  </view> 
 </view>
+</view>
+<!-- 推荐应用 -->
+<view class="pct4text">
+  <text style="font-weight: 600; font-size: large;">推荐应用</text>
+  <text style="color: gray; padding-top:5px ;">根据您最近浏览和办理为您推荐</text>
+</view>  
+
+<!-- 推荐应用五图 -->
+<scroll-view class="" scroll-x type="list" >
+  <view class="pt4">
+    <view class="pt4border">
+      <image class="pt4image" src="/pict/T2.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">成绩查询</view>
+      <view style="font-size: smaller;">查询当前历史成绩</view>
+      <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
+      <image class="pct4add" src="/pict/加号.png" mode=""/>
+    </view>  
+
+    <view class="pt4border">
+      <image class="pt4image" src="/pict/T4.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">学院预警</view>
+      <view style="font-size: smaller;">查询</view>
+      <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
+      <image class="pct4add" src="/pict/加号.png" mode=""/>
+    </view>  
+
+    <view class="pt4border">
+      <image class="pt4image" src="/pict/T3.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">网上查询</view>
+      <view style="font-size: smaller;">自主网上缴费</view>
+      <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
+      <image class="pct4add" src="/pict/加号.png" mode=""/>
+    </view>  
+
+    <view class="pt4border">
+      <image class="pt4image" src="/pict/T5.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">图书借阅</view>
+      <view style="font-size: smaller;">查看图书借阅记录</view>
+      <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
+      <image class="pct4add" src="/pict/加号.png" mode=""/>
+    </view>  
+  </view>
+</scroll-view>
 
 </scroll-view>
