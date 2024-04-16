@@ -8,15 +8,20 @@ page {
   flex: 1;
   overflow-y: hidden;
 }
+
 .pct1{
   height: 280rpx;
   width: 650rpx;
   border-radius: 22rpx;
+  
+}
+
+.pct101{
+  margin-top: -200rpx;
 }
 .text1{
   color: white;
-  position: absolute;
-  margin: 40rpx;
+  position:relative;
   left: 30rpx;
 }
 .understand{
@@ -34,8 +39,8 @@ page {
 .pct5{
   display: flex;
   justify-content: space-around;
-  position: absolute;
-  top: 500rpx;
+  position: relative;
+  top: -5rpx;
 }
 .pct5 image{
   width: 80rpx;
@@ -55,7 +60,7 @@ page {
 .ptmanwoman{
   display: flex;
   position: relative;
-  top: 100px;
+  top: 12px;
   
 }
 
@@ -116,7 +121,7 @@ margin-left: 20px;
   display: flex;
   position: relative;
   left: -180rpx;
-  top: -60rpx;
+  top:70rpx;
   
 }
 
@@ -152,7 +157,7 @@ text-align: center;
 box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.11);
 font-family: Roboto;
 position: relative;
-top: 400rpx;
+top: 110rpx;
 left: -3rpx;
 
 }
@@ -178,7 +183,66 @@ left: -3rpx;
 border-radius: 40%;
 background-color: rgb(98, 193, 231);
 }
+.pct4text{
+  position: relative;
+  top: 160rpx;
+  left: -100rpx;
+}
+.pct4text text{
+  position: relative;
+  display: block;
+}
 
+.pt4{
+  width: 500px;
+  height: 147px;
+  justify-content: left;
+  position: relative;
+  top: 200rpx;
+  display: flex;
+}
+
+.pt4border{
+width: 111px;
+height: 147px;
+line-height: 20px;
+border-radius: 7px;
+background-color: rgba(255,255,255,1);
+color: rgba(16,16,16,1);
+text-align: center;
+box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.07);
+font-family: Roboto;
+  
+}
+
+.pt4image{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+
+.pt4eye{
+  width: 20rpx;
+  height: 20rpx;
+  
+}
+
+.eyesborder{
+  border-radius: 7px;
+  background-color: rgba(233, 231, 231, 0.979);
+  width: 120rpx;
+  position: relative;
+  left:22%;
+  top: 2rpx;
+}
+
+.pct4add{
+  width: 60rpx;
+  height: 60rpx;
+  position: relative;
+  top:20rpx;
+  
+}
 
 
 

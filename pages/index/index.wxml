@@ -4,14 +4,16 @@
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
   <!-- 智慧校园门户 -->
+  <view class="pct101">
   <image class="pct1" src="/pict/1.png"/>
   <view class="text1">
-  <view style="font-weight: 600;font-size: 34rpx; margin-bottom: 30rpx;">智慧校园门户</view>
+  <view style="font-weight: 600;font-size: 34rpx; margin-bottom: -240rpx;">智慧校园门户</view>
   <view style="font-size: 25rpx;">学校概况 办事指南等功能</view>
   <view style="font-size: 25rpx;">方便快捷 办事实时查看消息</view>
   <view class="understand">去了解</view>
   </view>
-  
+   </view>
+
   <!-- 中间五个图标 -->
 <view class="pct5">
 <view>
@@ -40,12 +42,12 @@
   <view class="ptman">
   <view class="ptmanwomantext1">待办事项</view>
   <view class="ptmanwomantext1">我的待办事项</view>
-    <image style="position: absolute; left: 0rpx; top: 0px;" src="/pict/man.png" mode=""/>
+    <image style="position:relative; left: -50rpx; top: -80rpx;" src="/pict/man.png" mode=""/>
   </view>
   <view class="ptwoman">
     <view class="ptmanwomantext2">办事指南</view>
     <view class="ptmanwomantext2">办事指南汇总</view>
-    <image style="position: absolute; right: -15rpx; top: 0px;" src="/pict/woman.png" mode=""/>
+    <image style="position: relative; right: -5rpx; top: -40px;" src="/pict/woman.png" mode=""/>
   </view> 
 </view>
 <!-- 关于系统上线 -->
@@ -62,9 +64,59 @@
 <view style="color: gray; position: relative;left: -85rpx;">办事更便捷</view>
 </view>
 </view>
+
+
+<view>
+<!--推荐应用轮播图文字部分  -->
+<view class="pct4text">
+  <text style="font-weight: 600; font-size: large;">推荐应用</text>
+  <text style="color: gray; padding-top:5px ;">根据您最近浏览和办理为您推荐</text>
+</view>  
+<!--推荐应用轮播图片部分  -->
+<scroll-view class="scrollview" scroll-x >
+  <view class="pt4">
+    <view class="pt4border">
+      <image class="pt4image" src="/pict/T2.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">成绩查询</view>
+      <view style="font-size: smaller;">查询当前历史成绩</view>
+      <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
+      <image class="pct4add" src="/pict/加号.png" mode=""/>
+    </view>  
+
+    <view class="pt4border">
+      <image class="pt4image" src="/pict/T2.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">成绩查询</view>
+      <view style="font-size: smaller;">查询当前历史成绩</view>
+      <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
+      <image class="pct4add" src="/pict/加号.png" mode=""/>
+    </view>  
+
+    <view class="pt4border">
+      <image class="pt4image" src="/pict/T2.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">成绩查询</view>
+      <view style="font-size: smaller;">查询当前历史成绩</view>
+      <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
+      <image class="pct4add" src="/pict/加号.png" mode=""/>
+    </view>  
+
+    <view class="pt4border">
+      <image class="pt4image" src="/pict/T2.png" mode=""/>
+      <view style="font-weight: 600; font-size: smaller;">成绩查询</view>
+      <view style="font-size: smaller;">查询当前历史成绩</view>
+      <view class="eyesborder"><image class="pt4eye" src="/pict/eye.png" mode=""/><text style="font-size: x-small;">200+</text></view>
+      <image class="pct4add" src="/pict/加号.png" mode=""/>
+    </view>  
+  </view>
+</scroll-view>
+
+
 </view>
 
 
-    
+
+
+
+
+<!-- 结束处 -->
 </view>
 </scroll-view>
