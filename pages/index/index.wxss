@@ -274,9 +274,9 @@ margin: 10rpx;
 }
 
 .noticelast2{
-  margin-left:-465rpx ;
+  margin-right:550rpx ;
   color:gray;
-  
+  font-size: 0.1em;
 }
 
 

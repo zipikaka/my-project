@@ -118,7 +118,17 @@
 <!-- 通知公告内容部分 -->
 <view class="noticelast">
 <view class="noticelast1">加强新生入学后校园安全管理规范的通知</view>
-<image style="width: 100rpx; height: 100rpx; border-radius: 10%;" src="/pict/pt3-1.png" mode=""/>
+<image style="width: 100rpx; height: 100rpx; border-radius: 10%; margin-left: 50rpx;" src="/pict/pt3-1.png" mode=""/>
+</view>
+<view class="noticelast2"> 校园新闻网</view>
+<view class="noticelast">
+<view class="noticelast1">加强新生入学后校园安全管理规范的通知</view>
+<image style="width: 100rpx; height: 100rpx; border-radius: 10%; margin-left: 50rpx;" src="/pict/pt3-1.png" mode=""/>
+</view>
+<view class="noticelast2"> 校园新闻网</view>
+<view class="noticelast">
+<view class="noticelast1">加强新生入学后校园安全管理规范的通知</view>
+<image style="width: 100rpx; height: 100rpx; border-radius: 10%; margin-left: 50rpx;" src="/pict/pt3-1.png" mode=""/>
 </view>
 <view class="noticelast2"> 校园新闻网</view>
 
