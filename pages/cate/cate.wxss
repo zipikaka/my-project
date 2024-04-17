@@ -88,9 +88,6 @@ margin-left:110rpx ;
   height: 32px;
 }
 
-.message01{
-
-}
 
 .text01{
   font-weight: bold;

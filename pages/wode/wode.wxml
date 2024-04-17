@@ -1,17 +1,88 @@
 <!--pages/wode/wode.wxml-->
-<navigation-bar style="height: 110rpx;" back="{{false}}" color="black" background-color="#0000001" >
+<navigation-bar style="height: 110rpx;  background-color: rgba(5,178,134,1);" back="{{false}}" color="black">
 </navigation-bar>
 
-</navigation-bar>
 <!-- 头部栏部分 -->
 <view class="top">
 <image  src="/pict5/search.png" mode=""/>
 <view>我的</view>
-<image src="/pict5/mess.png" mode=""/>
+<image  src="/pict5/mess.png" mode=""/>
 </view>
 <!-- 头部栏个人信息部分 -->
-<view></view>
-<view></view>
+<view class="user">
+<view class="userid">紫皮卡</view>
+<image src="/pict5/user.png" mode=""/>
+</view>
+<view class="usermess">信息化管理中心</view>
+<!-- 男女图 -->
+<view>
+  <view class="ptmanwoman">
+    <view class="ptwoman">
+      <view class="ptmanwomantext1">待办事项</view>
+       <view class="ptmanwomantext1">我的待办事项</view>
+      <image style="position:relative; left: -75rpx; top: -65rpx;" src="/pict2/woman2.png" mode=""/>
+    </view>
+
+  <view class="ptman">
+      <view class="ptmanwomantext2">办事指南</view>
+      <view class="ptmanwomantext2">办事指南汇总</view>
+      <image style="position: relative; right: 70rpx; top: -32px;" src="/pict2/man.png" mode=""/>
+  </view> 
+</view>
+</view>
+<!-- 四条应用 -->
+<view class="tj">推荐应用</view>
+<view class="message4">
+<image src="/pict3/03.png" mode=""/>
+<view class="message1">
+      <text class="text01"> 教职工请假申请 </text> 
+      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+ </view>
+<view class="text03">昨天</view>
+
+<image src="/pict3/01.png" mode=""/>
+<view class="message1">
+      <text class="text01"> 教职工请假申请 </text> 
+      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+ </view>
+<view class="text03">昨天</view>
+
+<image src="/pict3/04.png" mode=""/>
+<view class="message1">
+      <text class="text01"> 教职工请假申请 </text> 
+      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+ </view>
+<view class="text03">昨天</view>
+</view>
+
+<!-- 我的收藏 -->
+<view style="font-weight: bold; margin-bottom: 40rpx; margin-left:65rpx ;">我的收藏</view>
+<view class="pct8box">
+<image class="pct8" src="/pict2/1.png" mode=""/>
+<image class="pct8" src="/pict2/2.png" mode=""/>
+<image class="pct8" src="/pict2/3.png" mode=""/>
+<image class="pct8" src="/pict2/4.png" mode=""/>
+</view>
+<view class="pct8box">
+
+<view>学校概况</view>
+<view>电子邮件</view>
+<view>校长投诉</view>
+<view>积极入党</view>
+</view>
+<view class="pct8box">
+<image class="pct8" src="/pict2/5.png" mode=""/>
+<image class="pct8" src="/pict2/6.png" mode=""/>
+<image class="pct8" src="/pict2/7.png" mode=""/>
+<image class="pct8" src="/pict2/8.png" mode=""/>
+</view>
+<view class="pct8box">
+<view>高德地图</view>
+<view>学海无涯</view>
+<view>清华大学</view>
+<view>一夜暴富</view>
+</view>
+
 
 
 <!-- 滚动条 -->

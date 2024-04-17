@@ -2,15 +2,14 @@
 
 .top{
   width: 393px;
-  height: 147px;
+  height: 157px;
   line-height: 20px;
   font-size: 18px;
   font-weight: bolder;
-  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.1);
   background: linear-gradient(180deg, rgba(58,209,174,1) 0%,rgba(255,255,255,0) 100%);
-  color: rgba(16,16,16,1);
   display: flex;
   position: relative;
+  justify-content: space-around;
   top:  140rpx;
   z-index: 99;
   
@@ -19,4 +18,158 @@
 .top image{
   width: 20px;
   height: 20px;
+}
+
+
+.user{
+  display: flex;
+
+}
+.userid{
+  font-weight: bolder;
+  font-size: larger;
+  z-index: 99;
+  position: relative;
+  left:80rpx;
+  top: -30rpx;
+}
+
+.usermess{
+  color: gray;
+  font-size: small;
+  position: relative;
+  top: -90rpx;
+  left: 75rpx;
+  z-index: 99;
+
+}
+
+.user image{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  z-index: 99;  
+  position: relative;
+  left: 460rpx;
+  top: -45rpx;
+}
+
+.ptmanwoman{
+  display: flex;
+  position: relative;
+  top: 12px;
+  
+}
+
+.ptmanwomantext1{
+  font-size: 10px  ;
+  color: white;
+  position: relative;
+  left: 32px;
+  top: 19px;
+}
+
+.ptmanwomantext2{
+  font-size: 10px  ;
+  color: white;
+  position: relative;
+  right: -32px;
+  top: 19px;
+}
+
+
+.ptwoman{
+width: 162px;
+height: 85px;
+line-height: 20px;
+border-radius: 10px;
+background: linear-gradient(117.31deg, rgba(254,178,122,1) 11.25%,rgba(255,255,92,1) 95.53%);
+color: rgba(16,16,16,1);
+font-size: 14px;
+text-align: center;
+margin-left: 30rpx;
+
+
+
+}
+
+.ptman{
+width: 158px;
+height: 85px;
+line-height: 20px;
+border-radius: 10px;
+background: linear-gradient(109.09deg, rgba(149,249,218,1) 8.35%,rgba(83,189,232,1) 122.08%);
+color: rgba(16,16,16,1);
+font-size: 14px;
+text-align: center;
+margin-left: 20px;
+}
+
+.ptmanwoman image{
+  width: 90px;
+  height: 76px;
+ 
+}
+
+.tj{
+  font-size: large;
+  font-weight: bolder;
+  position: relative;
+  left: 40rpx;
+  top: 40rpx;
+}
+.message4{
+  margin-top: 80rpx;
+  margin-left: 40rpx;
+
+}
+
+.message4 image{
+  width: 32px;
+  height: 32px;
+}
+
+
+.text01{
+  font-weight: bold;
+  position: relative;
+  left:90rpx;
+  top: -80rpx;
+}
+
+.text02{
+  position: relative;
+  color: gray;
+  font-size: small;
+  position: relative;
+  left: -140rpx;
+  top: -20rpx;
+}
+
+.text03{
+  position: relative;
+  color: gray;
+  font-size: small;
+  position: relative;
+  left: 600rpx;
+  top: -120rpx;
+}
+
+.pct8box{
+  display: flex;
+  justify-content: space-evenly;
+  /* 均匀排列每个元素 间隔相等 */
+  margin-bottom: 20rpx;
+  font-size: smaller;
+  font-weight:500 ;
+  font-family: PingFangSC-regular;
+
+
+}
+
+.pct8{
+  left: 9px;
+  top: 459px;
+  width: 30px;
+  height: 28px;
 }
