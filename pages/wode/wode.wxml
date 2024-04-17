@@ -1,2 +1,17 @@
 <!--pages/wode/wode.wxml-->
-<text>pages/wode/wode.wxml</text>
+<!-- 头部栏部分 -->
+<image src="/pict5/search.png" mode=""/>
+<view>我的</view>
+<image src="/pict5/mess.png" mode=""/>
+
+<!-- 滚动条 -->
+<scroll-view class="scrollarea" scroll-y type="list" >
+
+
+
+
+
+
+
+<!-- 结束 -->
+</scroll-view>

@@ -12,6 +12,55 @@
 <image src="/pict2/scode.png" mode=""/>
 <image src="/pict2/mess.png" mode=""/>
 </view>
+<!-- 滚动条 -->
 <scroll-view class="scrollarea" scroll-y type="list" >
+<!-- 发现新鲜事 -->
+<view class="pct1box">
+  <image class="pct1" src="/pict4/top.png"/>
+  <view class="text1">
+  <view style=" margin-bottom: -240rpx; position:relative; top: -250rpx;">发现新鲜事</view>
+  <view style="font-size: 25rpx;">校内各院系各部门重要新闻汇报</view>
+  <view style="font-size: 25rpx;">随时随地查看</view>
+  </view>
+   </view>
+   <!-- 通知公告文字部分 -->
+  <view class="notice">
+      <text style="font-size: large; font-weight: bold;">通知公告</text>
+      <text>通知公告</text>
+      <text>综合信息</text>
+      <text>学术动态</text>
+  </view>
   
+  <!-- 通知公告内容 -->
+<view  class="noticebox">
+  <view class="noticelast">
+      <view class="noticelast1">加强新生入学后校园安全管理规范的通知</view>
+      <image class="noticeimage" src="/pict/pt3-1.png" mode=""/>
+  </view>
+  <view class="noticelast2"> 校园新闻网</view>
+</view>
+
+
+<view  class="noticebox">
+<view class="noticelast">
+      <view class="noticelast1">关于开展2023新生入学教育系列培训课程的指导意见
+      </view>
+      <image class="noticeimage"src="/pict/pt3-2.png" mode=""/>
+</view>
+<view class="noticelast2"> 校园新闻网</view>
+</view>
+
+<view class="noticebox">
+  <view class="noticelast">
+      <view class="noticelast1">关于加强新生入学后校园安全管理条例实行的通知
+      </view>
+      <image class="noticeimage" src="/pict/pt3-3.png" mode=""/>
+      </view>
+  <view class="noticelast2"> 校园新闻网</view>
+</view>
+
+
+
+  
+  <!-- 结束 -->
 </scroll-view>
