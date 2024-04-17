@@ -1,8 +1,18 @@
 <!--pages/wode/wode.wxml-->
+<navigation-bar style="height: 110rpx;" back="{{false}}" color="black" background-color="#0000001" >
+</navigation-bar>
+
+</navigation-bar>
 <!-- 头部栏部分 -->
-<image src="/pict5/search.png" mode=""/>
+<view class="top">
+<image  src="/pict5/search.png" mode=""/>
 <view>我的</view>
 <image src="/pict5/mess.png" mode=""/>
+</view>
+<!-- 头部栏个人信息部分 -->
+<view></view>
+<view></view>
+
 
 <!-- 滚动条 -->
 <scroll-view class="scrollarea" scroll-y type="list" >
