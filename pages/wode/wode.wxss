@@ -2,7 +2,7 @@
 
 .top{
   width: 393px;
-  height: 157px;
+  height: 167px;
   line-height: 20px;
   font-size: 18px;
   font-weight: bolder;

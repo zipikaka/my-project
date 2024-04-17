@@ -1,5 +1,5 @@
 <!--pages/wode/wode.wxml-->
-<navigation-bar style="height: 110rpx;  background-color: rgba(5,178,134,1);" back="{{false}}" color="black">
+<navigation-bar  style="height: 110rpx;  background-color: rgba(5,178,134,1);" back="{{false}}" color="black">
 </navigation-bar>
 
 <!-- 头部栏部分 -->
