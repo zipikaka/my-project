@@ -1,2 +1,17 @@
 <!--pages/inter/inter.wxml-->
-<text>pages/inter/inter.wxml</text>
+<navigation-bar style="height: 110rpx;" title="应用" back="{{false}}" color="black" background="#808080">
+
+</navigation-bar>
+<!-- 头部搜索栏 -->
+<view class="top">
+<view style="font-weight: bold; font-size: large; position: relative; left: 50rpx; " >发现</view>
+<view class="topborder">
+<view class="search"><image src="/pict2/search.png" mode=""/></view>
+<view class="searchtext">搜索应用 消息 新闻</view>
+</view>
+<image src="/pict2/scode.png" mode=""/>
+<image src="/pict2/mess.png" mode=""/>
+</view>
+<scroll-view class="scrollarea" scroll-y type="list" >
+  
+</scroll-view>

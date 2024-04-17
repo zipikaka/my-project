@@ -79,6 +79,7 @@ margin-left:110rpx ;
 
 .message4{
   margin-top: 80rpx;
+  margin-left: 40rpx;
 
 }
 
@@ -100,7 +101,19 @@ margin-left:110rpx ;
 
 .text02{
   position: relative;
-  left:90rpx;
-  top: -80rpx;
+  color: gray;
+  font-size: small;
+  position: relative;
+  left: -140rpx;
+  top: -20rpx;
+}
+
+.text03{
+  position: relative;
+  color: gray;
+  font-size: small;
+  position: relative;
+  left: 600rpx;
+  top: -120rpx;
 }
 
