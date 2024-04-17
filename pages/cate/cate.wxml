@@ -1,2 +1,68 @@
 <!--pages/cate/cate.wxml-->
-<text>pages/cate/cate.wxml</text>
+<navigation-bar style="height: 110rpx;" title="应用" back="{{false}}" color="black" background="#808080">
+
+</navigation-bar>
+<!-- 头部搜索栏 -->
+<view class="top">
+<view style="font-weight: bold; font-size: large; position: relative; left: 50rpx; " >消息</view>
+<view class="topborder">
+<view class="search"><image src="/pict2/search.png" mode=""/></view>
+<view class="searchtext">搜索应用 消息 新闻</view>
+</view>
+<image src="/pict2/scode.png" mode=""/>
+<image src="/pict2/mess.png" mode=""/>
+</view>
+<!-- 滚动条 -->
+<scroll-view class="scrollarea" scroll-y type="list" >
+<!-- 五张图片 -->
+<view class="pct5">
+<view>
+  <image src="/pict3/01.png" mode=""/>
+  <view class="pt5text">待办</view>
+</view>  
+<view>
+  <image src="/pict3/02.png" mode=""/>
+  <view class="pt5text">待阅</view>
+</view> 
+<view>
+  <image src="/pict3/03.png" mode=""/>
+  <view class="pt5text">已办</view>
+</view> 
+<view>
+  <image src="/pict3/04.png" mode=""/>
+  <view  class="pt5text">预警</view>
+</view> 
+<view>
+  <image src="/pict3/05.png" mode=""/>
+  <view class="pt5text">系统</view>
+</view> 
+</view>
+<!-- 四条消息 -->
+<view class="message4">
+<image src="/pict3/03.png" mode=""/>
+<view class="message1">
+      <text class="text01"> 教职工请假申请 </text> 
+      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+ </view>
+<view>昨天</view>
+<image src="/pict3/03.png" mode=""/>
+<view class="message1">
+      <text class="text01"> 教职工请假申请 </text> 
+      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+ </view>
+<view>昨天</view>
+<image src="/pict3/03.png" mode=""/>
+<view class="message1">
+      <text class="text01"> 教职工请假申请 </text> 
+      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+ </view>
+<view>昨天</view>
+<image src="/pict3/03.png" mode=""/>
+<view class="message1">
+      <text class="text01"> 教职工请假申请 </text> 
+      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+ </view>
+<view>昨天</view>
+</view>
+<!-- 结束 -->
+</scroll-view>

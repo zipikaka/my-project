@@ -19,6 +19,9 @@ text-align: center;
 box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.1);
 font-family: Roboto;
 display: flex;
+position: relative;
+top: 19rpx;
+z-index: 99;
   
 }
 .search{
@@ -110,11 +113,10 @@ margin-left: 20px;
 
 .pct4text{
   position: relative;
-  top: 160rpx;
-  left: -100rpx;
+  top: 80rpx;
 }
 .pct4text text{
-  position: relative;
+
   display: block;
 }
 
@@ -123,7 +125,7 @@ margin-left: 20px;
   height: 260px;
   justify-content: left;
   position: relative;
-  top: 200rpx;
+  top: 120rpx;
   display: flex;
   
 }
@@ -169,4 +171,50 @@ margin: 10rpx;
   position: relative;
   top:20rpx;
   
+}
+
+.notice{
+  position: relative;
+  top: -40rpx;
+  left: -40rpx;
+ 
+}
+
+.notice text{
+  margin-left:50rpx ;
+  font-weight: 500;
+  font-size: small;
+}
+
+.pct8box{
+  display: flex;
+  justify-content: space-evenly;
+  /* 均匀排列每个元素 间隔相等 */
+  margin-bottom: 20rpx;
+  font-size: smaller;
+  font-weight:500 ;
+  font-family: PingFangSC-regular;
+
+
+}
+
+.pct8{
+  left: 9px;
+  top: 459px;
+  width: 30px;
+  height: 28px;
+}
+
+.pct4box{
+  display: flex;
+  justify-content: space-evenly;
+  /* 均匀排列每个元素 间隔相等 */
+  margin-bottom: 20rpx;
+  font-size: smaller;
+  font-weight:500 ;
+  font-family: PingFangSC-regular;
+  padding-bottom:30rpx;
+  
+
+
 }

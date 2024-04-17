@@ -1,10 +1,10 @@
 <!--pages/list/list.wxml-->
-<navigation-bar style="height: 130rpx;" title="应用" back="{{false}}" color="black" background="#808080">
+<navigation-bar style="height: 110rpx;" title="应用" back="{{false}}" color="black" background="#808080">
 
 </navigation-bar>
 <!-- 头部搜索栏 -->
 <view class="top">
-<view style="font-weight: bold; font-size: large; position: relative; left: 50rpx;" >应用</view>
+<view style="font-weight: bold; font-size: large; position: relative; left: 50rpx; " >应用</view>
 <view class="topborder">
 <view class="search"><image src="/pict2/search.png" mode=""/></view>
 <view class="searchtext">搜索应用 消息 新闻</view>
@@ -32,8 +32,8 @@
 </view>
 <!-- 推荐应用 -->
 <view class="pct4text">
-  <text style="font-weight: 600; font-size: large;">推荐应用</text>
-  <text style="color: gray; padding-top:5px ;">根据您最近浏览和办理为您推荐</text>
+  <text style=" font-weight: 600; font-size: large;">推荐应用</text>
+  <text style="color: gray; padding-top:5px; font-size: small;">根据您最近浏览和办理为您推荐</text>
 </view>  
 
 <!-- 推荐应用五图 -->
@@ -72,5 +72,50 @@
     </view>  
   </view>
 </scroll-view>
+<!--最新上线 -->
+<view class="notice">
+<text style="font-size: large; font-weight: bold;">最新上线</text>
+<text>电子商务</text>
+<text>教学服务</text>
+<text>科研服务</text>
+</view>
+<!-- 八个图标 -->
+<view style="font-weight: bold; margin-bottom: 40rpx; margin-left:10rpx ;">最新上线</view>
+<view class="pct8box">
+<image class="pct8" src="/pict2/1.png" mode=""/>
+<image class="pct8" src="/pict2/2.png" mode=""/>
+<image class="pct8" src="/pict2/3.png" mode=""/>
+<image class="pct8" src="/pict2/4.png" mode=""/>
+</view>
+<view class="pct8box">
 
+<view>学校概况</view>
+<view>电子邮件</view>
+<view>校长投诉</view>
+<view>积极入党</view>
+</view>
+<view class="pct8box">
+<image class="pct8" src="/pict2/5.png" mode=""/>
+<image class="pct8" src="/pict2/6.png" mode=""/>
+<image class="pct8" src="/pict2/7.png" mode=""/>
+<image class="pct8" src="/pict2/8.png" mode=""/>
+</view>
+<view class="pct8box">
+<view>高德地图</view>
+<view>学海无涯</view>
+<view>清华大学</view>
+<view>一夜暴富</view>
+</view>
+<!-- 电子教务 -->
+<view style="font-weight: bold; margin-bottom: 40rpx; margin-left:10rpx ;">电子教务</view>
+<view class="pct4box">
+<image class="pct8" src="/pict2/1.png" mode=""/>
+<image class="pct8" src="/pict2/2.png" mode=""/>
+<image class="pct8" src="/pict2/3.png" mode=""/>
+<image class="pct8" src="/pict2/4.png" mode=""/>
+</view>
+
+
+
+<!-- 结束 -->
 </scroll-view>
