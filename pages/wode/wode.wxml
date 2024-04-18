@@ -1,9 +1,8 @@
 <!--pages/wode/wode.wxml-->
-<navigation-bar  style="height: 110rpx;  background-color: rgba(5,178,134,1);" back="{{false}}" color="black">
-</navigation-bar>
+<!-- <navigation-bar  style="background-color: rgba(5,178,134,1);" back="{{false}}" color="black"> -->
 
 <!-- 头部栏部分 -->
-<view class="top">
+<view class="top" style="">
 <image  src="/pict5/search.png" mode=""/>
 <view>我的</view>
 <image  src="/pict5/mess.png" mode=""/>
@@ -14,6 +13,11 @@
 <image src="/pict5/user.png" mode=""/>
 </view>
 <view class="usermess">信息化管理中心</view>
+
+
+<!-- </navigation-bar> -->
+
+
 <!-- 男女图 -->
 <view>
   <view class="ptmanwoman">

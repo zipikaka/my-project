@@ -10,7 +10,7 @@
   display: flex;
   position: relative;
   justify-content: space-around;
-  top:  140rpx;
+  padding-top:130rpx ;
   z-index: 99;
   
     
