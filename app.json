@@ -30,13 +30,13 @@
   },
   {
     "pagePath": "pages/cate/cate",
-    "text": "应用",
+    "text": "消息",
     "iconPath":"/assets/net.png",
     "selectedIconPath":"/assets/net.png"
   },
   {
     "pagePath": "pages/inter/inter",
-    "text": "分享",
+    "text": "发现",
     "iconPath":"/assets/fenxiang.png",
     "selectedIconPath":"/assets/fenxiang.png"
   }
