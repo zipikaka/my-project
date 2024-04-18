@@ -111,7 +111,7 @@
 <!--通知公告标题部分  -->
 <view class="notice">
 <text style="font-size: large; font-weight: bold;">通知公告</text>
-<text>通知公告</text>
+<text bind:tap="notici">通知公告</text>
 <text>综合信息</text>
 <text>学术动态</text>
 </view>
