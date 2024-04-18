@@ -1,10 +1,12 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/index/index",
     "pages/list/list",
     "pages/cate/cate",
     "pages/inter/inter",
-    "pages/wode/wode"
+    "pages/wode/wode",
+    "pages/setting/setting"
   ],
   "window": {
     "navigationBarBackgroundColor":"#808080",
