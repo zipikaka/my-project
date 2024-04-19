@@ -2,11 +2,23 @@
 <!-- <navigation-bar  style="background-color: rgba(5,178,134,1);" back="{{false}}" color="black"> -->
 
 <!-- 头部栏部分 -->
+
+<!-- 跳转到set -->
 <view class="top" style="">
+<navigator url="/pages/set/set" >
 <image  src="/pict5/search.png" mode=""/>
+</navigator>
+
 <view>我的</view>
+
+<!-- 跳转到cate -->
+<navigator url="/pages/cate/cate" open-type="switchTab">
+<!--open-type="switchTab"切换到底部栏的页面 切换到set不用加 -->
 <image  src="/pict5/mess.png" mode=""/>
+</navigator>
+
 </view>
+
 <!-- 头部栏个人信息部分 -->
 <view class="user">
 <view class="userid">紫皮卡</view>

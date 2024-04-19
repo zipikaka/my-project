@@ -10,7 +10,10 @@
 <view class="searchtext">搜索应用 消息 新闻</view>
 </view>
 <image src="/pict2/scode.png" mode=""/>
+
+<navigator url="/pages/cate/cate" open-type="switchTab">
 <image src="/pict2/mess.png" mode=""/>
+</navigator>
 </view>
 <!-- 滚动条 -->
 <scroll-view class="scrollarea" scroll-y type="list" >
