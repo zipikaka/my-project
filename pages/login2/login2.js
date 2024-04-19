@@ -18,19 +18,19 @@ Page({
       duration: 1000//持续的时间
     })
   },  
-  yj(){
-    wx.showModal({
-      title: '错误',
-      content: '你已经在扫脸了',
-      success: function (res) {
-        if (res.confirm) {//这里是点击了确定以后
-          console.log('用户点击确定')
-        } else {//这里是点击了取消以后
-          console.log('用户点击取消')
-        }
-      }
-    })  
-},
+//   yj(){
+//     wx.showModal({
+//       title: '错误',
+//       content: '你已经在扫脸了',
+//       success: function (res) {
+//         if (res.confirm) {//这里是点击了确定以后
+//           console.log('用户点击确定')
+//         } else {//这里是点击了取消以后
+//           console.log('用户点击取消')
+//         }
+//       }
+//     })  
+// },
 
   /**
    * 生命周期函数--监听页面加载
