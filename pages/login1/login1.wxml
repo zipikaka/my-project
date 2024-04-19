@@ -1,0 +1,61 @@
+<navigation-bar style="height: 110rpx;" title="应用" back="{{false}}" color="black" background="#808080">
+
+</navigation-bar>
+
+<view class="container">
+
+ <!-- 回到首页 -->
+<view class="back">  
+<text >账号密码登录</text>
+      <navigator url="/pages/index/index" open-type="switchTab" >
+      <image src="/imgs/left.png"  />
+      </navigator>
+ </view>
+ <!-- 账号密码登录 -->
+ <view class="login">
+      <view class="loginborder">  
+      <!-- 登录底部边框 -->
+          <input type="text" placeholder="请输入登录账号" bindinput='getID'/>
+          <!-- bindput 绑定事件 -->
+      </view>
+
+      <view class="login" style="margin-top: -120px;margin-left: -10px;">
+        <view class="loginborder">  
+          <input type="text" placeholder="请输入登录密码"  bindinput='getPassword' />
+        </view>
+       </view>
+       <!-- 登录问题 -->
+    <text class="Text1">登录遇到问题 ? </text>
+       <!-- 登录按钮 -->
+    <button bind:tap="Login">登录</button>
+ </view>
+
+<!-- 三种特殊登录 -->
+ <view class="login3">
+
+<!-- 扫脸登录 -->
+<view class="login3-1" >   
+      <navigator url="/pages/login2/login2?title=navigate" hover-class="navigator-hover" >   
+      <image src="/imgs/LG/1.png" mode=""/>
+    </navigator>
+    <text class="login3-Text"  >扫脸登录</text> 
+</view>
+
+<!-- 微博登录 -->
+<view class="login3-1" >   
+  <navigator url="/pages/login3/login3?title=navigate">   
+  <image src="/imgs/LG/2.png" mode=""/>
+</navigator>
+<text class="login3-Text" >一键登录</text> 
+</view>
+
+<!-- 微信登录 -->
+<view class="login3-1" >   
+  <image src="/imgs/LG/3.png" mode=""/>
+<text class="login3-Text" >微信登录</text> </view>
+
+
+</view>
+<!-- 结束 -->
+  </view>
+

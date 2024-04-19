@@ -1,0 +1,55 @@
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="#808080" >
+</navigation-bar>
+
+  <view class="container">
+<view class="title">  
+
+<text >设置</text>
+ <navigator url="/pages/index/index"  open-type="switchTab">
+<image src="/imgs/left.png"  />
+ </navigator>
+
+
+ </view>
+
+ <view class="menu">
+ 
+ <view class="pic1">
+<image src="/imgs/seting/1.png" mode=""/>
+ <text class="pic1text">新消息通知</text>
+ </view>
+ <view class="pic1">
+<image src="/imgs/seting/2.png" mode=""/>
+ <text class="pic1text">版本更新</text>
+ </view>
+ <view class="pic1">
+<image src="/imgs/seting/3.png" mode=""/>
+ <text class="pic1text">清除缓存</text>
+ </view>
+ <view class="pic1">
+<image src="/imgs/seting/4.png" mode=""/>
+ <text class="pic1text">修改密码</text>
+ </view>
+ <view class="pic1">
+<image src="/imgs/seting/5.png" mode=""/>
+ <text class="pic1text">关于我们</text>
+ </view>
+
+
+
+ <view class="pic1" style="border: 0PX;">
+<image src="/imgs/seting/门.png" mode=""/>
+
+ <navigator url="/pages/login1/login1?title=navigate" >   
+ <text class="pic1text" style="color: #1296db;">退出登录</text>
+
+ </navigator>
+
+ </view>
+
+ </view>
+
+
+
+  </view>
+

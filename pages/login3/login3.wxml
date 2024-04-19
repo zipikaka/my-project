@@ -1,0 +1,50 @@
+<navigation-bar style="height: 110rpx;" title="应用" back="{{false}}" color="black" background="#808080">
+
+</navigation-bar>
+<!-- <scroll-view class="scrollarea" scroll-y type="list"> -->
+
+ <view class="container">
+  <view class="title">  
+  <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
+  <image src="/imgs/left.png"  />
+  <text style="position: relative; top: -180rpx;" >191****6824</text>
+
+
+
+ </navigator>
+
+
+ </view>
+ <view class="main">
+ <image src="/pict5/user.png" mode=""/>
+<text class="Text1">中国移动提供移动服务 </text>
+
+<navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
+<button>登录</button>
+ </navigator>
+
+ </view>
+ <text style="color: gray;" >通过其他方式登录</text>
+ <view class="M-TB">
+
+<view class="M-TB-1" >   
+  <navigator url="/pages/login2/login2?title=navigate" hover-class="navigator-hover" >   
+  <image src="/imgs/LG/1.png" mode=""/>
+ </navigator>
+<text class="M-TB-Text"  >扫脸登录</text> </view>
+
+<view class="M-TB-1" >   
+
+  <image src="/imgs/LG/2.png" mode="" bind:tap="yj"/>
+
+<text class="M-TB-Text" >一键登录</text> </view>
+
+<view class="M-TB-1" >   
+  <image src="/imgs/LG/3.png" mode=""/>
+<text class="M-TB-Text" >微信登录</text> </view>
+
+
+</view>
+
+  </view>
+<!-- </scroll-view>
