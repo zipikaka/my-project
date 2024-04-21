@@ -1,5 +1,5 @@
 <!--pages/list/list.wxml-->
-<navigation-bar style="height: 110rpx;" title="应用" back="{{false}}" color="black" background="#808080">
+<navigation-bar style="height: 110rpx;" title="应用" back="{{false}}" color="black">
 
 </navigation-bar>
 <!-- 头部搜索栏 -->

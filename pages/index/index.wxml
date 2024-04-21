@@ -73,7 +73,7 @@
   <text style="color: gray; padding-top:5px ;">根据您最近浏览和办理为您推荐</text>
 </view>  
 <!-- 推荐应用五图 -->
-<scroll-view class="" scroll-x type="list" >
+<scroll-view scroll-x type="list" >
   <view class="pt4">
     <view class="pt4border">
       <image class="pt4image" src="/pict/T2.png" mode=""/>
