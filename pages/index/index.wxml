@@ -166,7 +166,7 @@
 <!-- 学术动态板块 -->
 <view style="display: {{pb3}};">
 <view class="noticelast">
-<view class="noticelast1" >聚焦学生高阶思维和关键能力，拥有灵活、常态化使用的课堂环境</view>
+<view class="noticelast1" >聚焦学生高阶思维关键能力，拥有灵活、常态化使用的课堂环境</view>
 <image class="noticeimage" src="/pict/pt3-1.png" mode=""/>
 </view>
 <view class="noticelast2" > 校园新闻网</view>
@@ -179,7 +179,7 @@
 <view class="noticelast2"> 校园新闻网</view>
 
 <view class="noticelast">
-<view class="noticelast1">传统教育模式下学校的形态和功能
+<view class="noticelast1">传统教育模式下学校的形态功能
 </view>
 <image class="noticeimage" src="/pict/pt3-3.png" mode=""/>
 </view>
