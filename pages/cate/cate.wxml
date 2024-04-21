@@ -42,28 +42,28 @@
 <image src="/pict3/03.png" mode=""/>
 <view class="message1">
       <text class="text01"> 教职工请假申请 </text> 
-      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+      <text class="text02"> 工作部门:系统维护 请假申请人xxxx</text>
  </view>
 <view class="text03">昨天</view>
 
 <image src="/pict3/01.png" mode=""/>
 <view class="message1">
       <text class="text01"> 教职工请假申请 </text> 
-      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+      <text class="text02"> 工作部门:系统维护 请假申请人xxxx</text>
  </view>
 <view class="text03">昨天</view>
 
 <image src="/pict3/04.png" mode=""/>
 <view class="message1">
       <text class="text01"> 教职工请假申请 </text> 
-      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+      <text class="text02"> 工作部门:系统维护 请假申请人xxxx</text>
  </view>
 <view class="text03">昨天</view>
 
 <image src="/pict3/05.png" mode=""/>
 <view class="message1">
       <text class="text01"> 教职工请假申请 </text> 
-      <text class="text02"> 工作部门:系统维护 请假申请人xxx</text>
+      <text class="text02"> 工作部门:系统维护 请假申请人xxxx</text>
  </view>
 <view class="text03">昨天</view>
 </view>
